@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Fullscreen Video Background - HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-pagina de prueba prueba 2
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <header></header>
+    <div class="wrapper">
 
-    <script src="" async defer></script>
+        <div class="video-container">
+
+            <video autoplay muted loop>
+                <source src="vid/ender.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <div class="box">
+            <h2>Login</h2>
+            <form method="POST" action="pelis.html">
+                <div class="inputBox">
+                    <input type="email" name="" required="">
+                    <label>username</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="" required="">
+                    <label>password</label>
+                </div>
+                <input type="submit" name="" value="submit">
+                <br><br>
+                <a href="reset.html" style="color:white;">Has olvidado tu contraseña?</a>
+            </form>
+        </div>
+
 </body>
 
 </html>
